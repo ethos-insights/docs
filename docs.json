@@ -25,53 +25,27 @@
           "anchor": "Home",
           "icon": "house",
           "href": "/"
-        },
-        {
-          "anchor": "Changelog",
-          "icon": "scroll-text",
-          "href": "https://www.mintlify.com/docs/changelog"
-        },
-        {
-          "anchor": "Help",
-          "icon": "life-buoy",
-          "href": "https://www.mintlify.com/docs/contact-support"
         }
       ]
     },
     "directory": "card",
     "groups": [
       {
-        "group": "Platform",
-        "icon": "layers",
-        "expanded": true,
+        "group": "Getting Started",
         "pages": [
-          "platform/quickstart",
-          "platform/key-concepts",
-          "platform/configuration/settings",
-          "platform/configuration/user-management",
-          "platform/administration/roles-permissions"
+          "getting-started/student-rostering-requirements",
+          "getting-started/school-system-integrations",
+          "getting-started/technical-requirements"
         ]
       },
       {
-        "group": "Analytics",
-        "icon": "chart-bar",
-        "expanded": true,
+        "group": "Teacher Guide",
         "pages": [
-          "analytics/quickstart",
-          "analytics/connect-data",
-          "analytics/dashboards/create-dashboard",
-          "analytics/reports/scheduled-reports"
-        ]
-      },
-      {
-        "group": "Integrations",
-        "icon": "plug",
-        "expanded": true,
-        "pages": [
-          "integrations/quickstart",
-          "integrations/authentication",
-          "integrations/connectors/crm",
-          "integrations/webhooks/configure"
+          "teacher-guide/project-based-learning-support",
+          "teacher-guide/tools-for-differentiated-instruction",
+          "teacher-guide/using-trek-for-math-instruction",
+          "teacher-guide/best-practices-for-rolling-out-trek-to-students",
+          "teacher-guide/proofreading-options-in-trek"
         ]
       }
     ]
